@@ -16,17 +16,22 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.6.0+9** |
+| **Version** | **1.7.0+10** |
 | **Released** | 2026-11-01 |
-| **Size** | 79.7 MB |
+| **Size** | 80.6 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `1617f13c54f4967418bcb063cf58029d7c4a01828defe71efeda2d87861ad8ed` |
+| **SHA-256** | `11370c43d3e05ec3895a450d949c527b33c8139a88acb82aef7a3676483fdd85` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.6.0_b9.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build9/Meridian_LoanManagement_Offline_v1.6.0_b9.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.7.0_b10.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.7.0-build10/Meridian_LoanManagement_Offline_v1.7.0_b10.apk)
 
 ### What's new in this version / নতুন কী
 
-- Test release for the automatic update: no change to loans, ledger or data. / অটো-আপডেট পরীক্ষার রিলিজ: লোন, লেজার বা ডাটায় কোনো পরিবর্তন নেই।
+- New: new users are registered with an email address and can sign in only after the mailbox is verified with a one-time code and the account is activated. / নতুন: নতুন ব্যবহারকারী ইমেইলসহ নিবন্ধিত হয়; একবারের কোডে মেইলবক্স যাচাই ও অ্যাকাউন্ট সক্রিয় করার পরই সাইন ইন করা যায়।
+- New: "Forgot password?" on Sign in: reset the sign-in password with a code sent to the verified email. / নতুন: Sign in-এ "Forgot password?": যাচাইকৃত ইমেইলে কোড পাঠিয়ে সাইন-ইন পাসওয়ার্ড রিসেট।
+- Existing users stay active and unchanged; loans, ledger, backup and offline use are not affected. / বিদ্যমান ব্যবহারকারী সক্রিয় ও অপরিবর্তিত; লোন, খাতা, ব্যাকআপ ও অফলাইন ব্যবহারে প্রভাব নেই।
+- Needs the mail verification service to be deployed and its address set at build time; until then new accounts cannot be activated. / মেইল যাচাই সার্ভিস চালু করে বিল্ডে তার ঠিকানা দিতে হবে; তার আগে নতুন অ্যাকাউন্ট সক্রিয় করা যাবে না।
+- New: Continue with Google on Sign in. A new person becomes a pending request; the Owner approves and chooses the role (Users > Access requests). Existing users can link a Google account in Settings. / নতুন: Sign in-এ Continue with Google। নতুন ব্যক্তি pending আবেদন হয়; Owner অনুমোদন করে Role ঠিক করেন (Users > Access requests)। বিদ্যমান ব্যবহারকারী Settings-এ Google অ্যাকাউন্ট লিংক করতে পারেন।
+- Google sign-in needs Google OAuth client ids and the verification service; the button is hidden until they are set up. / Google সাইন-ইনের জন্য Google OAuth client id ও যাচাই সার্ভিস লাগে; সেটআপ না হওয়া পর্যন্ত বাটন লুকানো থাকে।
 
 ---
 
@@ -59,7 +64,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.6.0_b9.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.7.0_b10.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -73,11 +78,23 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.6.0+9** **(latest)** | 2026-11-01 | 79.7 MB | Test release for the automatic update: no change to loans, ledger or data. / অটো-আপডেট পর… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build9/Meridian_LoanManagement_Offline_v1.6.0_b9.apk) |
+| **1.7.0+10** **(latest)** | 2026-11-01 | 80.6 MB | New: new users are registered with an email address and can sign in only after the mailbo… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.7.0-build10/Meridian_LoanManagement_Offline_v1.7.0_b10.apk) |
+| **1.6.0+9** | 2026-11-01 | 79.7 MB | Test release for the automatic update: no change to loans, ledger or data. / অটো-আপডেট পর… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build9/Meridian_LoanManagement_Offline_v1.6.0_b9.apk) |
 | **1.6.0+8** | 2026-11-01 | 79.7 MB | Automatic update check: the home screen shows "Update available" when a newer version is… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build8/Meridian_LoanManagement_Offline_v1.6.0_b8.apk) |
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.7.0+10 — 2026-11-01
+
+- New: new users are registered with an email address and can sign in only after the mailbox is verified with a one-time code and the account is activated. / নতুন: নতুন ব্যবহারকারী ইমেইলসহ নিবন্ধিত হয়; একবারের কোডে মেইলবক্স যাচাই ও অ্যাকাউন্ট সক্রিয় করার পরই সাইন ইন করা যায়।
+- New: "Forgot password?" on Sign in: reset the sign-in password with a code sent to the verified email. / নতুন: Sign in-এ "Forgot password?": যাচাইকৃত ইমেইলে কোড পাঠিয়ে সাইন-ইন পাসওয়ার্ড রিসেট।
+- Existing users stay active and unchanged; loans, ledger, backup and offline use are not affected. / বিদ্যমান ব্যবহারকারী সক্রিয় ও অপরিবর্তিত; লোন, খাতা, ব্যাকআপ ও অফলাইন ব্যবহারে প্রভাব নেই।
+- Needs the mail verification service to be deployed and its address set at build time; until then new accounts cannot be activated. / মেইল যাচাই সার্ভিস চালু করে বিল্ডে তার ঠিকানা দিতে হবে; তার আগে নতুন অ্যাকাউন্ট সক্রিয় করা যাবে না।
+- New: Continue with Google on Sign in. A new person becomes a pending request; the Owner approves and chooses the role (Users > Access requests). Existing users can link a Google account in Settings. / নতুন: Sign in-এ Continue with Google। নতুন ব্যক্তি pending আবেদন হয়; Owner অনুমোদন করে Role ঠিক করেন (Users > Access requests)। বিদ্যমান ব্যবহারকারী Settings-এ Google অ্যাকাউন্ট লিংক করতে পারেন।
+- Google sign-in needs Google OAuth client ids and the verification service; the button is hidden until they are set up. / Google সাইন-ইনের জন্য Google OAuth client id ও যাচাই সার্ভিস লাগে; সেটআপ না হওয়া পর্যন্ত বাটন লুকানো থাকে।
+
+SHA-256: `11370c43d3e05ec3895a450d949c527b33c8139a88acb82aef7a3676483fdd85` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.7.0-build10)
 
 ### 1.6.0+9 — 2026-11-01
 
