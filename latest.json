@@ -1,0 +1,12 @@
+{
+  "versionName": "1.6.0",
+  "buildNumber": 8,
+  "version": "1.6.0+8",
+  "tag": "v1.6.0-build8",
+  "apkName": "Meridian_LoanManagement_Offline_v1.6.0_b8.apk",
+  "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build8/Meridian_LoanManagement_Offline_v1.6.0_b8.apk",
+  "sha256": "632de02b916d86df822c22c65911d56f21afa02cb8741059e5f131a7214c8310",
+  "sizeBytes": 83597630,
+  "releaseNotes": "Automatic update check: the home screen shows \"Update available\" when a newer version is published, and \"Update now\" installs it. / অটো আপডেট: নতুন সংস্করণ এলে হোম স্ক্রিনে \"Update available\" দেখায়, \"Update now\" চাপলে ইনস্টল হয়।\nSettings > Check for updates, to check by hand. / Settings > Check for updates দিয়ে হাতে দেখা যায়।\nEvery download is checked (SHA-256) before it is installed; a damaged file is deleted. / ইনস্টলের আগে প্রতিটি ডাউনলোড যাচাই হয়; নষ্ট ফাইল মুছে ফেলা হয়।\nThe internet is used only for updates; your data never leaves the phone. / ইন্টারনেট শুধু আপডেটের জন্য; আপনার তথ্য ফোনের বাইরে যায় না।",
+  "publishedAt": "2026-11-01T10:38:13Z"
+}
