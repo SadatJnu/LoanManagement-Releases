@@ -1,6 +1,18 @@
 [
   {
     "versionName": "1.6.0",
+    "buildNumber": 9,
+    "version": "1.6.0+9",
+    "tag": "v1.6.0-build9",
+    "apkName": "Meridian_LoanManagement_Offline_v1.6.0_b9.apk",
+    "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build9/Meridian_LoanManagement_Offline_v1.6.0_b9.apk",
+    "sha256": "1617f13c54f4967418bcb063cf58029d7c4a01828defe71efeda2d87861ad8ed",
+    "sizeBytes": 83597630,
+    "releaseNotes": "Test release for the automatic update: no change to loans, ledger or data. / অটো-আপডেট পরীক্ষার রিলিজ: লোন, লেজার বা ডাটায় কোনো পরিবর্তন নেই।",
+    "publishedAt": "2026-11-01T11:17:23Z"
+  },
+  {
+    "versionName": "1.6.0",
     "buildNumber": 8,
     "version": "1.6.0+8",
     "tag": "v1.6.0-build8",

@@ -16,20 +16,17 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.6.0+8** |
+| **Version** | **1.6.0+9** |
 | **Released** | 2026-11-01 |
 | **Size** | 79.7 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `632de02b916d86df822c22c65911d56f21afa02cb8741059e5f131a7214c8310` |
+| **SHA-256** | `1617f13c54f4967418bcb063cf58029d7c4a01828defe71efeda2d87861ad8ed` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.6.0_b8.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build8/Meridian_LoanManagement_Offline_v1.6.0_b8.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.6.0_b9.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build9/Meridian_LoanManagement_Offline_v1.6.0_b9.apk)
 
 ### What's new in this version / নতুন কী
 
-- Automatic update check: the home screen shows "Update available" when a newer version is published, and "Update now" installs it. / অটো আপডেট: নতুন সংস্করণ এলে হোম স্ক্রিনে "Update available" দেখায়, "Update now" চাপলে ইনস্টল হয়।
-- Settings > Check for updates, to check by hand. / Settings > Check for updates দিয়ে হাতে দেখা যায়।
-- Every download is checked (SHA-256) before it is installed; a damaged file is deleted. / ইনস্টলের আগে প্রতিটি ডাউনলোড যাচাই হয়; নষ্ট ফাইল মুছে ফেলা হয়।
-- The internet is used only for updates; your data never leaves the phone. / ইন্টারনেট শুধু আপডেটের জন্য; আপনার তথ্য ফোনের বাইরে যায় না।
+- Test release for the automatic update: no change to loans, ledger or data. / অটো-আপডেট পরীক্ষার রিলিজ: লোন, লেজার বা ডাটায় কোনো পরিবর্তন নেই।
 
 ---
 
@@ -62,7 +59,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.6.0_b8.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.6.0_b9.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -76,10 +73,17 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.6.0+8** **(latest)** | 2026-11-01 | 79.7 MB | Automatic update check: the home screen shows "Update available" when a newer version is… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build8/Meridian_LoanManagement_Offline_v1.6.0_b8.apk) |
+| **1.6.0+9** **(latest)** | 2026-11-01 | 79.7 MB | Test release for the automatic update: no change to loans, ledger or data. / অটো-আপডেট পর… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build9/Meridian_LoanManagement_Offline_v1.6.0_b9.apk) |
+| **1.6.0+8** | 2026-11-01 | 79.7 MB | Automatic update check: the home screen shows "Update available" when a newer version is… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build8/Meridian_LoanManagement_Offline_v1.6.0_b8.apk) |
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.6.0+9 — 2026-11-01
+
+- Test release for the automatic update: no change to loans, ledger or data. / অটো-আপডেট পরীক্ষার রিলিজ: লোন, লেজার বা ডাটায় কোনো পরিবর্তন নেই।
+
+SHA-256: `1617f13c54f4967418bcb063cf58029d7c4a01828defe71efeda2d87861ad8ed` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.6.0-build9)
 
 ### 1.6.0+8 — 2026-11-01
 
