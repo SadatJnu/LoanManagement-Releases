@@ -1,12 +1,12 @@
 {
-  "versionName": "1.7.0",
-  "buildNumber": 10,
-  "version": "1.7.0+10",
-  "tag": "v1.7.0-build10",
-  "apkName": "Meridian_LoanManagement_Offline_v1.7.0_b10.apk",
-  "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.7.0-build10/Meridian_LoanManagement_Offline_v1.7.0_b10.apk",
-  "sha256": "11370c43d3e05ec3895a450d949c527b33c8139a88acb82aef7a3676483fdd85",
-  "sizeBytes": 84487686,
-  "releaseNotes": "New: new users are registered with an email address and can sign in only after the mailbox is verified with a one-time code and the account is activated. / নতুন: নতুন ব্যবহারকারী ইমেইলসহ নিবন্ধিত হয়; একবারের কোডে মেইলবক্স যাচাই ও অ্যাকাউন্ট সক্রিয় করার পরই সাইন ইন করা যায়।\nNew: \"Forgot password?\" on Sign in: reset the sign-in password with a code sent to the verified email. / নতুন: Sign in-এ \"Forgot password?\": যাচাইকৃত ইমেইলে কোড পাঠিয়ে সাইন-ইন পাসওয়ার্ড রিসেট।\nExisting users stay active and unchanged; loans, ledger, backup and offline use are not affected. / বিদ্যমান ব্যবহারকারী সক্রিয় ও অপরিবর্তিত; লোন, খাতা, ব্যাকআপ ও অফলাইন ব্যবহারে প্রভাব নেই।\nNeeds the mail verification service to be deployed and its address set at build time; until then new accounts cannot be activated. / মেইল যাচাই সার্ভিস চালু করে বিল্ডে তার ঠিকানা দিতে হবে; তার আগে নতুন অ্যাকাউন্ট সক্রিয় করা যাবে না।\nNew: Continue with Google on Sign in. A new person becomes a pending request; the Owner approves and chooses the role (Users > Access requests). Existing users can link a Google account in Settings. / নতুন: Sign in-এ Continue with Google। নতুন ব্যক্তি pending আবেদন হয়; Owner অনুমোদন করে Role ঠিক করেন (Users > Access requests)। বিদ্যমান ব্যবহারকারী Settings-এ Google অ্যাকাউন্ট লিংক করতে পারেন।\nGoogle sign-in needs Google OAuth client ids and the verification service; the button is hidden until they are set up. / Google সাইন-ইনের জন্য Google OAuth client id ও যাচাই সার্ভিস লাগে; সেটআপ না হওয়া পর্যন্ত বাটন লুকানো থাকে।",
-  "publishedAt": "2026-11-01T12:32:52Z"
+  "versionName": "1.8.0",
+  "buildNumber": 11,
+  "version": "1.8.0+11",
+  "tag": "v1.8.0-build11",
+  "apkName": "Meridian_LoanManagement_Offline_v1.8.0_b11.apk",
+  "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.0-build11/Meridian_LoanManagement_Offline_v1.8.0_b11.apk",
+  "sha256": "017cb8b0dbb5e493b621751237707aede9476d13a658c25d983c9d19cb30a5cb",
+  "sizeBytes": 84489246,
+  "releaseNotes": "Simpler registration: adding a user no longer needs an email code. Enter the person's name and email address; if they agree (consent box), the registration is reported to Meridian Softworks and a welcome email is sent. / সহজ নিবন্ধন: ইউজার যোগ করতে আর ইমেইল কোড লাগে না। ব্যক্তির নাম ও ইমেইল দিন; তিনি রাজি থাকলে (সম্মতি বাক্স) নিবন্ধনটি Meridian Softworks-কে জানানো হয় ও স্বাগত ইমেইল যায়।\nWorks offline: the report waits on the phone and is sent when online, without duplicates. See Users > Registration reports. / অফলাইনেও চলে: রিপোর্ট ফোনে অপেক্ষা করে, অনলাইনে ডুপ্লিকেট ছাড়া যায়। Users > Registration reports দেখুন।\nEmail verification codes, Forgot password by email and the Google access-request button are hidden unless the build includes those services. Existing users, sign-in, roles and all loan features are unchanged. / ইমেইল যাচাই কোড, ইমেইলে পাসওয়ার্ড পুনরুদ্ধার ও Google আবেদন বাটন সংশ্লিষ্ট সার্ভিস ছাড়া লুকানো থাকে। বিদ্যমান ইউজার, সাইন ইন, রোল ও লোনের সব ফিচার অপরিবর্তিত।",
+  "publishedAt": "2026-11-02T07:16:43Z"
 }
