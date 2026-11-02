@@ -1,5 +1,17 @@
 [
   {
+    "versionName": "1.8.2",
+    "buildNumber": 13,
+    "version": "1.8.2+13",
+    "tag": "v1.8.2-build13",
+    "apkName": "Meridian_LoanManagement_Offline_v1.8.2_b13.apk",
+    "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.2-build13/Meridian_LoanManagement_Offline_v1.8.2_b13.apk",
+    "sha256": "125376e42c54867a9a5f3034777ff055a85d5978c3da45e9555e5d5eb95da049",
+    "sizeBytes": 84554594,
+    "releaseNotes": "Fixed: Bangla text in printed and saved PDF reports and vouchers was broken (wrong vowel signs and conjuncts). It is now shaped correctly, the same as on screen. / সমাধান: প্রিন্ট ও সংরক্ষণ করা PDF রিপোর্ট ও ভাউচারে বাংলা লেখা ভাঙা আসত (ভুল কার-চিহ্ন ও যুক্তাক্ষর)। এখন পর্দার মতোই সঠিক আসে।",
+    "publishedAt": "2026-11-02T08:54:45Z"
+  },
+  {
     "versionName": "1.8.0",
     "buildNumber": 11,
     "version": "1.8.0+11",

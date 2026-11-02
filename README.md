@@ -16,19 +16,17 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.8.0+11** |
+| **Version** | **1.8.2+13** |
 | **Released** | 2026-11-02 |
 | **Size** | 80.6 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `017cb8b0dbb5e493b621751237707aede9476d13a658c25d983c9d19cb30a5cb` |
+| **SHA-256** | `125376e42c54867a9a5f3034777ff055a85d5978c3da45e9555e5d5eb95da049` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.8.0_b11.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.0-build11/Meridian_LoanManagement_Offline_v1.8.0_b11.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.8.2_b13.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.2-build13/Meridian_LoanManagement_Offline_v1.8.2_b13.apk)
 
 ### What's new in this version / নতুন কী
 
-- Simpler registration: adding a user no longer needs an email code. Enter the person's name and email address; if they agree (consent box), the registration is reported to Meridian Softworks and a welcome email is sent. / সহজ নিবন্ধন: ইউজার যোগ করতে আর ইমেইল কোড লাগে না। ব্যক্তির নাম ও ইমেইল দিন; তিনি রাজি থাকলে (সম্মতি বাক্স) নিবন্ধনটি Meridian Softworks-কে জানানো হয় ও স্বাগত ইমেইল যায়।
-- Works offline: the report waits on the phone and is sent when online, without duplicates. See Users > Registration reports. / অফলাইনেও চলে: রিপোর্ট ফোনে অপেক্ষা করে, অনলাইনে ডুপ্লিকেট ছাড়া যায়। Users > Registration reports দেখুন।
-- Email verification codes, Forgot password by email and the Google access-request button are hidden unless the build includes those services. Existing users, sign-in, roles and all loan features are unchanged. / ইমেইল যাচাই কোড, ইমেইলে পাসওয়ার্ড পুনরুদ্ধার ও Google আবেদন বাটন সংশ্লিষ্ট সার্ভিস ছাড়া লুকানো থাকে। বিদ্যমান ইউজার, সাইন ইন, রোল ও লোনের সব ফিচার অপরিবর্তিত।
+- Fixed: Bangla text in printed and saved PDF reports and vouchers was broken (wrong vowel signs and conjuncts). It is now shaped correctly, the same as on screen. / সমাধান: প্রিন্ট ও সংরক্ষণ করা PDF রিপোর্ট ও ভাউচারে বাংলা লেখা ভাঙা আসত (ভুল কার-চিহ্ন ও যুক্তাক্ষর)। এখন পর্দার মতোই সঠিক আসে।
 
 ---
 
@@ -61,7 +59,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.8.0_b11.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.8.2_b13.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -75,13 +73,20 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.8.0+11** **(latest)** | 2026-11-02 | 80.6 MB | Simpler registration: adding a user no longer needs an email code. Enter the person's nam… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.0-build11/Meridian_LoanManagement_Offline_v1.8.0_b11.apk) |
+| **1.8.2+13** **(latest)** | 2026-11-02 | 80.6 MB | Fixed: Bangla text in printed and saved PDF reports and vouchers was broken (wrong vowel… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.2-build13/Meridian_LoanManagement_Offline_v1.8.2_b13.apk) |
+| **1.8.0+11** | 2026-11-02 | 80.6 MB | Simpler registration: adding a user no longer needs an email code. Enter the person's nam… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.0-build11/Meridian_LoanManagement_Offline_v1.8.0_b11.apk) |
 | **1.7.0+10** | 2026-11-01 | 80.6 MB | New: new users are registered with an email address and can sign in only after the mailbo… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.7.0-build10/Meridian_LoanManagement_Offline_v1.7.0_b10.apk) |
 | **1.6.0+9** | 2026-11-01 | 79.7 MB | Test release for the automatic update: no change to loans, ledger or data. / অটো-আপডেট পর… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build9/Meridian_LoanManagement_Offline_v1.6.0_b9.apk) |
 | **1.6.0+8** | 2026-11-01 | 79.7 MB | Automatic update check: the home screen shows "Update available" when a newer version is… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build8/Meridian_LoanManagement_Offline_v1.6.0_b8.apk) |
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.8.2+13 — 2026-11-02
+
+- Fixed: Bangla text in printed and saved PDF reports and vouchers was broken (wrong vowel signs and conjuncts). It is now shaped correctly, the same as on screen. / সমাধান: প্রিন্ট ও সংরক্ষণ করা PDF রিপোর্ট ও ভাউচারে বাংলা লেখা ভাঙা আসত (ভুল কার-চিহ্ন ও যুক্তাক্ষর)। এখন পর্দার মতোই সঠিক আসে।
+
+SHA-256: `125376e42c54867a9a5f3034777ff055a85d5978c3da45e9555e5d5eb95da049` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.8.2-build13)
 
 ### 1.8.0+11 — 2026-11-02
 

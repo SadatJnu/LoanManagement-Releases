@@ -1,12 +1,12 @@
 {
-  "versionName": "1.8.0",
-  "buildNumber": 11,
-  "version": "1.8.0+11",
-  "tag": "v1.8.0-build11",
-  "apkName": "Meridian_LoanManagement_Offline_v1.8.0_b11.apk",
-  "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.0-build11/Meridian_LoanManagement_Offline_v1.8.0_b11.apk",
-  "sha256": "017cb8b0dbb5e493b621751237707aede9476d13a658c25d983c9d19cb30a5cb",
-  "sizeBytes": 84489246,
-  "releaseNotes": "Simpler registration: adding a user no longer needs an email code. Enter the person's name and email address; if they agree (consent box), the registration is reported to Meridian Softworks and a welcome email is sent. / সহজ নিবন্ধন: ইউজার যোগ করতে আর ইমেইল কোড লাগে না। ব্যক্তির নাম ও ইমেইল দিন; তিনি রাজি থাকলে (সম্মতি বাক্স) নিবন্ধনটি Meridian Softworks-কে জানানো হয় ও স্বাগত ইমেইল যায়।\nWorks offline: the report waits on the phone and is sent when online, without duplicates. See Users > Registration reports. / অফলাইনেও চলে: রিপোর্ট ফোনে অপেক্ষা করে, অনলাইনে ডুপ্লিকেট ছাড়া যায়। Users > Registration reports দেখুন।\nEmail verification codes, Forgot password by email and the Google access-request button are hidden unless the build includes those services. Existing users, sign-in, roles and all loan features are unchanged. / ইমেইল যাচাই কোড, ইমেইলে পাসওয়ার্ড পুনরুদ্ধার ও Google আবেদন বাটন সংশ্লিষ্ট সার্ভিস ছাড়া লুকানো থাকে। বিদ্যমান ইউজার, সাইন ইন, রোল ও লোনের সব ফিচার অপরিবর্তিত।",
-  "publishedAt": "2026-11-02T07:16:43Z"
+  "versionName": "1.8.2",
+  "buildNumber": 13,
+  "version": "1.8.2+13",
+  "tag": "v1.8.2-build13",
+  "apkName": "Meridian_LoanManagement_Offline_v1.8.2_b13.apk",
+  "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.2-build13/Meridian_LoanManagement_Offline_v1.8.2_b13.apk",
+  "sha256": "125376e42c54867a9a5f3034777ff055a85d5978c3da45e9555e5d5eb95da049",
+  "sizeBytes": 84554594,
+  "releaseNotes": "Fixed: Bangla text in printed and saved PDF reports and vouchers was broken (wrong vowel signs and conjuncts). It is now shaped correctly, the same as on screen. / সমাধান: প্রিন্ট ও সংরক্ষণ করা PDF রিপোর্ট ও ভাউচারে বাংলা লেখা ভাঙা আসত (ভুল কার-চিহ্ন ও যুক্তাক্ষর)। এখন পর্দার মতোই সঠিক আসে।",
+  "publishedAt": "2026-11-02T08:54:45Z"
 }
