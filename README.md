@@ -16,17 +16,18 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.8.2+13** |
+| **Version** | **1.8.4+15** |
 | **Released** | 2026-11-02 |
-| **Size** | 80.6 MB |
+| **Size** | 80.9 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `125376e42c54867a9a5f3034777ff055a85d5978c3da45e9555e5d5eb95da049` |
+| **SHA-256** | `8d870b6402d084a3e87db878b24ca48727823abfc7dd0fcf0ada3d95f6a392d3` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.8.2_b13.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.2-build13/Meridian_LoanManagement_Offline_v1.8.2_b13.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.8.4_b15.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.4-build15/Meridian_LoanManagement_Offline_v1.8.4_b15.apk)
 
 ### What's new in this version / নতুন কী
 
-- Fixed: Bangla text in printed and saved PDF reports and vouchers was broken (wrong vowel signs and conjuncts). It is now shaped correctly, the same as on screen. / সমাধান: প্রিন্ট ও সংরক্ষণ করা PDF রিপোর্ট ও ভাউচারে বাংলা লেখা ভাঙা আসত (ভুল কার-চিহ্ন ও যুক্তাক্ষর)। এখন পর্দার মতোই সঠিক আসে।
+- You can fill the email address from a Google account already on the phone: tap "Use my Google account" on setup or when adding a user. It only fills the field — it never signs in with Google or reads your Google password, and you can edit the address. / ফোনে থাকা Google অ্যাকাউন্ট থেকে ইমেইল ঠিকানা বসানো যায়: সেটআপে বা ইউজার যোগ করার সময় "Use my Google account"-এ চাপুন। এটি শুধু ঘরটি পূরণ করে — Google দিয়ে সাইন ইন করে না বা Google পাসওয়ার্ড পড়ে না, এবং ঠিকানা সম্পাদনা করা যায়।
+- The app identity is now com.meridian.loan_management (Meridian). This is a new app, so an older version cannot update over it: back up, uninstall the old app, install this one, then restore. / অ্যাপের পরিচয় এখন com.meridian.loan_management (Meridian)। এটি নতুন অ্যাপ, তাই পুরনো সংস্করণের উপরে আপডেট হয় না: ব্যাকআপ নিন, পুরনো অ্যাপ আনইনস্টল করুন, এটি ইনস্টল করুন, তারপর রিস্টোর করুন।
 
 ---
 
@@ -59,7 +60,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.8.2_b13.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.8.4_b15.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -73,7 +74,8 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.8.2+13** **(latest)** | 2026-11-02 | 80.6 MB | Fixed: Bangla text in printed and saved PDF reports and vouchers was broken (wrong vowel… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.2-build13/Meridian_LoanManagement_Offline_v1.8.2_b13.apk) |
+| **1.8.4+15** **(latest)** | 2026-11-02 | 80.9 MB | You can fill the email address from a Google account already on the phone: tap "Use my Go… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.4-build15/Meridian_LoanManagement_Offline_v1.8.4_b15.apk) |
+| **1.8.2+13** | 2026-11-02 | 80.6 MB | Fixed: Bangla text in printed and saved PDF reports and vouchers was broken (wrong vowel… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.2-build13/Meridian_LoanManagement_Offline_v1.8.2_b13.apk) |
 | **1.8.0+11** | 2026-11-02 | 80.6 MB | Simpler registration: adding a user no longer needs an email code. Enter the person's nam… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.0-build11/Meridian_LoanManagement_Offline_v1.8.0_b11.apk) |
 | **1.7.0+10** | 2026-11-01 | 80.6 MB | New: new users are registered with an email address and can sign in only after the mailbo… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.7.0-build10/Meridian_LoanManagement_Offline_v1.7.0_b10.apk) |
 | **1.6.0+9** | 2026-11-01 | 79.7 MB | Test release for the automatic update: no change to loans, ledger or data. / অটো-আপডেট পর… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.6.0-build9/Meridian_LoanManagement_Offline_v1.6.0_b9.apk) |
@@ -81,6 +83,13 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.8.4+15 — 2026-11-02
+
+- You can fill the email address from a Google account already on the phone: tap "Use my Google account" on setup or when adding a user. It only fills the field — it never signs in with Google or reads your Google password, and you can edit the address. / ফোনে থাকা Google অ্যাকাউন্ট থেকে ইমেইল ঠিকানা বসানো যায়: সেটআপে বা ইউজার যোগ করার সময় "Use my Google account"-এ চাপুন। এটি শুধু ঘরটি পূরণ করে — Google দিয়ে সাইন ইন করে না বা Google পাসওয়ার্ড পড়ে না, এবং ঠিকানা সম্পাদনা করা যায়।
+- The app identity is now com.meridian.loan_management (Meridian). This is a new app, so an older version cannot update over it: back up, uninstall the old app, install this one, then restore. / অ্যাপের পরিচয় এখন com.meridian.loan_management (Meridian)। এটি নতুন অ্যাপ, তাই পুরনো সংস্করণের উপরে আপডেট হয় না: ব্যাকআপ নিন, পুরনো অ্যাপ আনইনস্টল করুন, এটি ইনস্টল করুন, তারপর রিস্টোর করুন।
+
+SHA-256: `8d870b6402d084a3e87db878b24ca48727823abfc7dd0fcf0ada3d95f6a392d3` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.8.4-build15)
 
 ### 1.8.2+13 — 2026-11-02
 
