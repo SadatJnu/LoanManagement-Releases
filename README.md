@@ -16,18 +16,18 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.8.4+15** |
-| **Released** | 2026-11-02 |
+| **Version** | **1.8.5+16** |
+| **Released** | 2026-11-03 |
 | **Size** | 80.9 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `8d870b6402d084a3e87db878b24ca48727823abfc7dd0fcf0ada3d95f6a392d3` |
+| **SHA-256** | `b386fc6da4b0a18f3d7526781f867f70c528a75ec70e8e186841b4b7019e2ecb` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.8.4_b15.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.4-build15/Meridian_LoanManagement_Offline_v1.8.4_b15.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.8.5_b16.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.5-build16/Meridian_LoanManagement_Offline_v1.8.5_b16.apk)
 
 ### What's new in this version / নতুন কী
 
-- You can fill the email address from a Google account already on the phone: tap "Use my Google account" on setup or when adding a user. It only fills the field — it never signs in with Google or reads your Google password, and you can edit the address. / ফোনে থাকা Google অ্যাকাউন্ট থেকে ইমেইল ঠিকানা বসানো যায়: সেটআপে বা ইউজার যোগ করার সময় "Use my Google account"-এ চাপুন। এটি শুধু ঘরটি পূরণ করে — Google দিয়ে সাইন ইন করে না বা Google পাসওয়ার্ড পড়ে না, এবং ঠিকানা সম্পাদনা করা যায়।
-- The app identity is now com.meridian.loan_management (Meridian). This is a new app, so an older version cannot update over it: back up, uninstall the old app, install this one, then restore. / অ্যাপের পরিচয় এখন com.meridian.loan_management (Meridian)। এটি নতুন অ্যাপ, তাই পুরনো সংস্করণের উপরে আপডেট হয় না: ব্যাকআপ নিন, পুরনো অ্যাপ আনইনস্টল করুন, এটি ইনস্টল করুন, তারপর রিস্টোর করুন।
+- "Use my Google account" is more reliable: if the first Google window finds no account, the app offers all Google accounts on the phone. Closing the Google window no longer shows a warning. / "Use my Google account" আরও নির্ভরযোগ্য: প্রথম Google উইন্ডোতে অ্যাকাউন্ট না পেলে ফোনের সব Google অ্যাকাউন্ট দেখানো হয়। Google উইন্ডো বন্ধ করলে আর সতর্কবার্তা দেখায় না।
+- When Google refuses the sign-in because of its set-up, the message now says so clearly and you can type the email address instead. / Google তার সেটআপের কারণে সাইন-ইন প্রত্যাখ্যান করলে বার্তায় তা স্পষ্ট বলা হয়, এবং আপনি ইমেইল ঠিকানা টাইপ করতে পারেন।
 
 ---
 
@@ -60,7 +60,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.8.4_b15.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.8.5_b16.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -74,7 +74,8 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.8.4+15** **(latest)** | 2026-11-02 | 80.9 MB | You can fill the email address from a Google account already on the phone: tap "Use my Go… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.4-build15/Meridian_LoanManagement_Offline_v1.8.4_b15.apk) |
+| **1.8.5+16** **(latest)** | 2026-11-03 | 80.9 MB | "Use my Google account" is more reliable: if the first Google window finds no account, th… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.5-build16/Meridian_LoanManagement_Offline_v1.8.5_b16.apk) |
+| **1.8.4+15** | 2026-11-02 | 80.9 MB | You can fill the email address from a Google account already on the phone: tap "Use my Go… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.4-build15/Meridian_LoanManagement_Offline_v1.8.4_b15.apk) |
 | **1.8.2+13** | 2026-11-02 | 80.6 MB | Fixed: Bangla text in printed and saved PDF reports and vouchers was broken (wrong vowel… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.2-build13/Meridian_LoanManagement_Offline_v1.8.2_b13.apk) |
 | **1.8.0+11** | 2026-11-02 | 80.6 MB | Simpler registration: adding a user no longer needs an email code. Enter the person's nam… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.0-build11/Meridian_LoanManagement_Offline_v1.8.0_b11.apk) |
 | **1.7.0+10** | 2026-11-01 | 80.6 MB | New: new users are registered with an email address and can sign in only after the mailbo… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.7.0-build10/Meridian_LoanManagement_Offline_v1.7.0_b10.apk) |
@@ -83,6 +84,13 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.8.5+16 — 2026-11-03
+
+- "Use my Google account" is more reliable: if the first Google window finds no account, the app offers all Google accounts on the phone. Closing the Google window no longer shows a warning. / "Use my Google account" আরও নির্ভরযোগ্য: প্রথম Google উইন্ডোতে অ্যাকাউন্ট না পেলে ফোনের সব Google অ্যাকাউন্ট দেখানো হয়। Google উইন্ডো বন্ধ করলে আর সতর্কবার্তা দেখায় না।
+- When Google refuses the sign-in because of its set-up, the message now says so clearly and you can type the email address instead. / Google তার সেটআপের কারণে সাইন-ইন প্রত্যাখ্যান করলে বার্তায় তা স্পষ্ট বলা হয়, এবং আপনি ইমেইল ঠিকানা টাইপ করতে পারেন।
+
+SHA-256: `b386fc6da4b0a18f3d7526781f867f70c528a75ec70e8e186841b4b7019e2ecb` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.8.5-build16)
 
 ### 1.8.4+15 — 2026-11-02
 

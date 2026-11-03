@@ -1,12 +1,12 @@
 {
-  "versionName": "1.8.4",
-  "buildNumber": 15,
-  "version": "1.8.4+15",
-  "tag": "v1.8.4-build15",
-  "apkName": "Meridian_LoanManagement_Offline_v1.8.4_b15.apk",
-  "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.4-build15/Meridian_LoanManagement_Offline_v1.8.4_b15.apk",
-  "sha256": "8d870b6402d084a3e87db878b24ca48727823abfc7dd0fcf0ada3d95f6a392d3",
+  "versionName": "1.8.5",
+  "buildNumber": 16,
+  "version": "1.8.5+16",
+  "tag": "v1.8.5-build16",
+  "apkName": "Meridian_LoanManagement_Offline_v1.8.5_b16.apk",
+  "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.5-build16/Meridian_LoanManagement_Offline_v1.8.5_b16.apk",
+  "sha256": "b386fc6da4b0a18f3d7526781f867f70c528a75ec70e8e186841b4b7019e2ecb",
   "sizeBytes": 84784470,
-  "releaseNotes": "You can fill the email address from a Google account already on the phone: tap \"Use my Google account\" on setup or when adding a user. It only fills the field — it never signs in with Google or reads your Google password, and you can edit the address. / ফোনে থাকা Google অ্যাকাউন্ট থেকে ইমেইল ঠিকানা বসানো যায়: সেটআপে বা ইউজার যোগ করার সময় \"Use my Google account\"-এ চাপুন। এটি শুধু ঘরটি পূরণ করে — Google দিয়ে সাইন ইন করে না বা Google পাসওয়ার্ড পড়ে না, এবং ঠিকানা সম্পাদনা করা যায়।\nThe app identity is now com.meridian.loan_management (Meridian). This is a new app, so an older version cannot update over it: back up, uninstall the old app, install this one, then restore. / অ্যাপের পরিচয় এখন com.meridian.loan_management (Meridian)। এটি নতুন অ্যাপ, তাই পুরনো সংস্করণের উপরে আপডেট হয় না: ব্যাকআপ নিন, পুরনো অ্যাপ আনইনস্টল করুন, এটি ইনস্টল করুন, তারপর রিস্টোর করুন।",
-  "publishedAt": "2026-11-02T10:47:56Z"
+  "releaseNotes": "\"Use my Google account\" is more reliable: if the first Google window finds no account, the app offers all Google accounts on the phone. Closing the Google window no longer shows a warning. / \"Use my Google account\" আরও নির্ভরযোগ্য: প্রথম Google উইন্ডোতে অ্যাকাউন্ট না পেলে ফোনের সব Google অ্যাকাউন্ট দেখানো হয়। Google উইন্ডো বন্ধ করলে আর সতর্কবার্তা দেখায় না।\nWhen Google refuses the sign-in because of its set-up, the message now says so clearly and you can type the email address instead. / Google তার সেটআপের কারণে সাইন-ইন প্রত্যাখ্যান করলে বার্তায় তা স্পষ্ট বলা হয়, এবং আপনি ইমেইল ঠিকানা টাইপ করতে পারেন।",
+  "publishedAt": "2026-11-03T04:35:21Z"
 }
