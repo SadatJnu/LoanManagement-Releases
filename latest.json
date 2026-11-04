@@ -1,12 +1,12 @@
 {
-  "versionName": "1.8.5",
-  "buildNumber": 16,
-  "version": "1.8.5+16",
-  "tag": "v1.8.5-build16",
-  "apkName": "Meridian_LoanManagement_Offline_v1.8.5_b16.apk",
-  "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.5-build16/Meridian_LoanManagement_Offline_v1.8.5_b16.apk",
-  "sha256": "b386fc6da4b0a18f3d7526781f867f70c528a75ec70e8e186841b4b7019e2ecb",
-  "sizeBytes": 84784470,
-  "releaseNotes": "\"Use my Google account\" is more reliable: if the first Google window finds no account, the app offers all Google accounts on the phone. Closing the Google window no longer shows a warning. / \"Use my Google account\" আরও নির্ভরযোগ্য: প্রথম Google উইন্ডোতে অ্যাকাউন্ট না পেলে ফোনের সব Google অ্যাকাউন্ট দেখানো হয়। Google উইন্ডো বন্ধ করলে আর সতর্কবার্তা দেখায় না।\nWhen Google refuses the sign-in because of its set-up, the message now says so clearly and you can type the email address instead. / Google তার সেটআপের কারণে সাইন-ইন প্রত্যাখ্যান করলে বার্তায় তা স্পষ্ট বলা হয়, এবং আপনি ইমেইল ঠিকানা টাইপ করতে পারেন।",
-  "publishedAt": "2026-11-03T04:35:21Z"
+  "versionName": "1.8.6",
+  "buildNumber": 17,
+  "version": "1.8.6+17",
+  "tag": "v1.8.6-build17",
+  "apkName": "Meridian_LoanManagement_Offline_v1.8.6_b17.apk",
+  "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.6-build17/Meridian_LoanManagement_Offline_v1.8.6_b17.apk",
+  "sha256": "8ef27bba80010f02d87a75855ce667f19fbd5fb0ea5a38c5d28060f96931df8d",
+  "sizeBytes": 38151771,
+  "releaseNotes": "Fixes \"App not installed as package appears to be invalid\" on some phones (for example realme, OPPO, Xiaomi): the app is now signed with every Android signature type and its built-in libraries are packed the classic way that all installers accept. The download is also much smaller (about 38 MB instead of 85 MB). / কিছু ফোনে (যেমন realme, OPPO, Xiaomi) \"App not installed as package appears to be invalid\" সমস্যার সমাধান: অ্যাপটি এখন অ্যান্ড্রয়েডের সব ধরনের সিগনেচারে সই করা এবং ভেতরের লাইব্রেরিগুলো এমনভাবে প্যাক করা যা সব ইনস্টলার গ্রহণ করে। ডাউনলোডও অনেক ছোট (৮৫ MB-এর বদলে প্রায় ৩৮ MB)।\nIf an older copy of the app is on the phone and the install still fails, uninstall it first (back up before), then install this one. / ফোনে পুরনো কপি থাকলে এবং তবুও ইনস্টল না হলে আগে সেটি আনইনস্টল করুন (আগে ব্যাকআপ নিন), তারপর এটি ইনস্টল করুন।",
+  "publishedAt": "2026-11-04T05:25:37Z"
 }

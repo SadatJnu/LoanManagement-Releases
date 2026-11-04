@@ -1,5 +1,17 @@
 [
   {
+    "versionName": "1.8.6",
+    "buildNumber": 17,
+    "version": "1.8.6+17",
+    "tag": "v1.8.6-build17",
+    "apkName": "Meridian_LoanManagement_Offline_v1.8.6_b17.apk",
+    "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.6-build17/Meridian_LoanManagement_Offline_v1.8.6_b17.apk",
+    "sha256": "8ef27bba80010f02d87a75855ce667f19fbd5fb0ea5a38c5d28060f96931df8d",
+    "sizeBytes": 38151771,
+    "releaseNotes": "Fixes \"App not installed as package appears to be invalid\" on some phones (for example realme, OPPO, Xiaomi): the app is now signed with every Android signature type and its built-in libraries are packed the classic way that all installers accept. The download is also much smaller (about 38 MB instead of 85 MB). / কিছু ফোনে (যেমন realme, OPPO, Xiaomi) \"App not installed as package appears to be invalid\" সমস্যার সমাধান: অ্যাপটি এখন অ্যান্ড্রয়েডের সব ধরনের সিগনেচারে সই করা এবং ভেতরের লাইব্রেরিগুলো এমনভাবে প্যাক করা যা সব ইনস্টলার গ্রহণ করে। ডাউনলোডও অনেক ছোট (৮৫ MB-এর বদলে প্রায় ৩৮ MB)।\nIf an older copy of the app is on the phone and the install still fails, uninstall it first (back up before), then install this one. / ফোনে পুরনো কপি থাকলে এবং তবুও ইনস্টল না হলে আগে সেটি আনইনস্টল করুন (আগে ব্যাকআপ নিন), তারপর এটি ইনস্টল করুন।",
+    "publishedAt": "2026-11-04T05:25:37Z"
+  },
+  {
     "versionName": "1.8.5",
     "buildNumber": 16,
     "version": "1.8.5+16",
