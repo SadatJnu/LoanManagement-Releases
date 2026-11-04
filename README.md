@@ -16,18 +16,19 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.8.6+17** |
+| **Version** | **1.9.0+18** |
 | **Released** | 2026-11-04 |
-| **Size** | 36.4 MB |
+| **Size** | 36.5 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `8ef27bba80010f02d87a75855ce667f19fbd5fb0ea5a38c5d28060f96931df8d` |
+| **SHA-256** | `e704b4ff3e525511e18fd679fdf85c7c4ed99aba9c15d4829f78c87da3fdebba` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.8.6_b17.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.6-build17/Meridian_LoanManagement_Offline_v1.8.6_b17.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.9.0_b18.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.0-build18/Meridian_LoanManagement_Offline_v1.9.0_b18.apk)
 
 ### What's new in this version / নতুন কী
 
-- Fixes "App not installed as package appears to be invalid" on some phones (for example realme, OPPO, Xiaomi): the app is now signed with every Android signature type and its built-in libraries are packed the classic way that all installers accept. The download is also much smaller (about 38 MB instead of 85 MB). / কিছু ফোনে (যেমন realme, OPPO, Xiaomi) "App not installed as package appears to be invalid" সমস্যার সমাধান: অ্যাপটি এখন অ্যান্ড্রয়েডের সব ধরনের সিগনেচারে সই করা এবং ভেতরের লাইব্রেরিগুলো এমনভাবে প্যাক করা যা সব ইনস্টলার গ্রহণ করে। ডাউনলোডও অনেক ছোট (৮৫ MB-এর বদলে প্রায় ৩৮ MB)।
-- If an older copy of the app is on the phone and the install still fails, uninstall it first (back up before), then install this one. / ফোনে পুরনো কপি থাকলে এবং তবুও ইনস্টল না হলে আগে সেটি আনইনস্টল করুন (আগে ব্যাকআপ নিন), তারপর এটি ইনস্টল করুন।
+- New: Settings > Subscription shows your organization's subscription and its Organization ID. In this version no subscription is required: everything works as before and no payment is asked. / নতুন: Settings > Subscription-এ সংগঠনের সাবস্ক্রিপশন ও Organization ID দেখা যায়। এই সংস্করণে কোনো সাবস্ক্রিপশন লাগে না: আগের মতোই সব কাজ করে এবং কোনো পেমেন্ট চাওয়া হয় না।
+- Preparation for future organization subscriptions (one subscription for the whole organization, bKash payment later). Online payment is not available yet. / ভবিষ্যৎ সংগঠনভিত্তিক সাবস্ক্রিপশনের প্রস্তুতি (পুরো সংগঠনের জন্য একটি সাবস্ক্রিপশন, পরে bKash পেমেন্ট)। অনলাইন পেমেন্ট এখনো চালু নেই।
+- New User Manual chapter: Subscription Management & Licensing. / ইউজার ম্যানুয়ালে নতুন অধ্যায়: সাবস্ক্রিপশন ব্যবস্থাপনা ও লাইসেন্স।
 
 ---
 
@@ -60,7 +61,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.8.6_b17.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.9.0_b18.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -74,7 +75,8 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.8.6+17** **(latest)** | 2026-11-04 | 36.4 MB | Fixes "App not installed as package appears to be invalid" on some phones (for example re… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.6-build17/Meridian_LoanManagement_Offline_v1.8.6_b17.apk) |
+| **1.9.0+18** **(latest)** | 2026-11-04 | 36.5 MB | New: Settings > Subscription shows your organization's subscription and its Organization… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.0-build18/Meridian_LoanManagement_Offline_v1.9.0_b18.apk) |
+| **1.8.6+17** | 2026-11-04 | 36.4 MB | Fixes "App not installed as package appears to be invalid" on some phones (for example re… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.6-build17/Meridian_LoanManagement_Offline_v1.8.6_b17.apk) |
 | **1.8.5+16** | 2026-11-03 | 80.9 MB | "Use my Google account" is more reliable: if the first Google window finds no account, th… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.5-build16/Meridian_LoanManagement_Offline_v1.8.5_b16.apk) |
 | **1.8.4+15** | 2026-11-02 | 80.9 MB | You can fill the email address from a Google account already on the phone: tap "Use my Go… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.4-build15/Meridian_LoanManagement_Offline_v1.8.4_b15.apk) |
 | **1.8.2+13** | 2026-11-02 | 80.6 MB | Fixed: Bangla text in printed and saved PDF reports and vouchers was broken (wrong vowel… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.2-build13/Meridian_LoanManagement_Offline_v1.8.2_b13.apk) |
@@ -85,6 +87,14 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.9.0+18 — 2026-11-04
+
+- New: Settings > Subscription shows your organization's subscription and its Organization ID. In this version no subscription is required: everything works as before and no payment is asked. / নতুন: Settings > Subscription-এ সংগঠনের সাবস্ক্রিপশন ও Organization ID দেখা যায়। এই সংস্করণে কোনো সাবস্ক্রিপশন লাগে না: আগের মতোই সব কাজ করে এবং কোনো পেমেন্ট চাওয়া হয় না।
+- Preparation for future organization subscriptions (one subscription for the whole organization, bKash payment later). Online payment is not available yet. / ভবিষ্যৎ সংগঠনভিত্তিক সাবস্ক্রিপশনের প্রস্তুতি (পুরো সংগঠনের জন্য একটি সাবস্ক্রিপশন, পরে bKash পেমেন্ট)। অনলাইন পেমেন্ট এখনো চালু নেই।
+- New User Manual chapter: Subscription Management & Licensing. / ইউজার ম্যানুয়ালে নতুন অধ্যায়: সাবস্ক্রিপশন ব্যবস্থাপনা ও লাইসেন্স।
+
+SHA-256: `e704b4ff3e525511e18fd679fdf85c7c4ed99aba9c15d4829f78c87da3fdebba` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.9.0-build18)
 
 ### 1.8.6+17 — 2026-11-04
 
