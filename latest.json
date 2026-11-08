@@ -1,12 +1,12 @@
 {
-  "versionName": "1.9.0",
-  "buildNumber": 18,
-  "version": "1.9.0+18",
-  "tag": "v1.9.0-build18",
-  "apkName": "Meridian_LoanManagement_Offline_v1.9.0_b18.apk",
-  "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.0-build18/Meridian_LoanManagement_Offline_v1.9.0_b18.apk",
-  "sha256": "e704b4ff3e525511e18fd679fdf85c7c4ed99aba9c15d4829f78c87da3fdebba",
-  "sizeBytes": 38249937,
-  "releaseNotes": "New: Settings > Subscription shows your organization's subscription and its Organization ID. In this version no subscription is required: everything works as before and no payment is asked. / নতুন: Settings > Subscription-এ সংগঠনের সাবস্ক্রিপশন ও Organization ID দেখা যায়। এই সংস্করণে কোনো সাবস্ক্রিপশন লাগে না: আগের মতোই সব কাজ করে এবং কোনো পেমেন্ট চাওয়া হয় না।\nPreparation for future organization subscriptions (one subscription for the whole organization, bKash payment later). Online payment is not available yet. / ভবিষ্যৎ সংগঠনভিত্তিক সাবস্ক্রিপশনের প্রস্তুতি (পুরো সংগঠনের জন্য একটি সাবস্ক্রিপশন, পরে bKash পেমেন্ট)। অনলাইন পেমেন্ট এখনো চালু নেই।\nNew User Manual chapter: Subscription Management & Licensing. / ইউজার ম্যানুয়ালে নতুন অধ্যায়: সাবস্ক্রিপশন ব্যবস্থাপনা ও লাইসেন্স।",
-  "publishedAt": "2026-11-04T06:29:45Z"
+  "versionName": "1.9.1",
+  "buildNumber": 19,
+  "version": "1.9.1+19",
+  "tag": "v1.9.1-build19",
+  "apkName": "Meridian_LoanManagement_Offline_v1.9.1_b19.apk",
+  "apkUrl": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.1-build19/Meridian_LoanManagement_Offline_v1.9.1_b19.apk",
+  "sha256": "e8074d228d44126c76ae5e149f08667a90c2371ceadc2a4d0101435c6d55df41",
+  "sizeBytes": 38252351,
+  "releaseNotes": "The sign-in screen now shows the app name \"Loan Management\" as its main heading under the Meridian Softworks logo (also on Welcome back and First-time setup), so it is clear which app it is. / সাইন-ইন স্ক্রিনে Meridian Softworks লোগোর নিচে প্রধান শিরোনাম হিসেবে অ্যাপের নাম \"Loan Management\" দেখায় (Welcome back ও First-time setup-এও), যাতে বোঝা যায় এটি কোন অ্যাপ।",
+  "publishedAt": "2026-11-08T11:18:36Z"
 }

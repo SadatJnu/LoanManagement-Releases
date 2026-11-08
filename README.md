@@ -16,19 +16,17 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.9.0+18** |
-| **Released** | 2026-11-04 |
+| **Version** | **1.9.1+19** |
+| **Released** | 2026-11-08 |
 | **Size** | 36.5 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `e704b4ff3e525511e18fd679fdf85c7c4ed99aba9c15d4829f78c87da3fdebba` |
+| **SHA-256** | `e8074d228d44126c76ae5e149f08667a90c2371ceadc2a4d0101435c6d55df41` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.9.0_b18.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.0-build18/Meridian_LoanManagement_Offline_v1.9.0_b18.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.9.1_b19.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.1-build19/Meridian_LoanManagement_Offline_v1.9.1_b19.apk)
 
 ### What's new in this version / নতুন কী
 
-- New: Settings > Subscription shows your organization's subscription and its Organization ID. In this version no subscription is required: everything works as before and no payment is asked. / নতুন: Settings > Subscription-এ সংগঠনের সাবস্ক্রিপশন ও Organization ID দেখা যায়। এই সংস্করণে কোনো সাবস্ক্রিপশন লাগে না: আগের মতোই সব কাজ করে এবং কোনো পেমেন্ট চাওয়া হয় না।
-- Preparation for future organization subscriptions (one subscription for the whole organization, bKash payment later). Online payment is not available yet. / ভবিষ্যৎ সংগঠনভিত্তিক সাবস্ক্রিপশনের প্রস্তুতি (পুরো সংগঠনের জন্য একটি সাবস্ক্রিপশন, পরে bKash পেমেন্ট)। অনলাইন পেমেন্ট এখনো চালু নেই।
-- New User Manual chapter: Subscription Management & Licensing. / ইউজার ম্যানুয়ালে নতুন অধ্যায়: সাবস্ক্রিপশন ব্যবস্থাপনা ও লাইসেন্স।
+- The sign-in screen now shows the app name "Loan Management" as its main heading under the Meridian Softworks logo (also on Welcome back and First-time setup), so it is clear which app it is. / সাইন-ইন স্ক্রিনে Meridian Softworks লোগোর নিচে প্রধান শিরোনাম হিসেবে অ্যাপের নাম "Loan Management" দেখায় (Welcome back ও First-time setup-এও), যাতে বোঝা যায় এটি কোন অ্যাপ।
 
 ---
 
@@ -61,7 +59,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.9.0_b18.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.9.1_b19.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -75,7 +73,8 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.9.0+18** **(latest)** | 2026-11-04 | 36.5 MB | New: Settings > Subscription shows your organization's subscription and its Organization… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.0-build18/Meridian_LoanManagement_Offline_v1.9.0_b18.apk) |
+| **1.9.1+19** **(latest)** | 2026-11-08 | 36.5 MB | The sign-in screen now shows the app name "Loan Management" as its main heading under the… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.1-build19/Meridian_LoanManagement_Offline_v1.9.1_b19.apk) |
+| **1.9.0+18** | 2026-11-04 | 36.5 MB | New: Settings > Subscription shows your organization's subscription and its Organization… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.0-build18/Meridian_LoanManagement_Offline_v1.9.0_b18.apk) |
 | **1.8.6+17** | 2026-11-04 | 36.4 MB | Fixes "App not installed as package appears to be invalid" on some phones (for example re… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.6-build17/Meridian_LoanManagement_Offline_v1.8.6_b17.apk) |
 | **1.8.5+16** | 2026-11-03 | 80.9 MB | "Use my Google account" is more reliable: if the first Google window finds no account, th… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.5-build16/Meridian_LoanManagement_Offline_v1.8.5_b16.apk) |
 | **1.8.4+15** | 2026-11-02 | 80.9 MB | You can fill the email address from a Google account already on the phone: tap "Use my Go… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.4-build15/Meridian_LoanManagement_Offline_v1.8.4_b15.apk) |
@@ -87,6 +86,12 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.9.1+19 — 2026-11-08
+
+- The sign-in screen now shows the app name "Loan Management" as its main heading under the Meridian Softworks logo (also on Welcome back and First-time setup), so it is clear which app it is. / সাইন-ইন স্ক্রিনে Meridian Softworks লোগোর নিচে প্রধান শিরোনাম হিসেবে অ্যাপের নাম "Loan Management" দেখায় (Welcome back ও First-time setup-এও), যাতে বোঝা যায় এটি কোন অ্যাপ।
+
+SHA-256: `e8074d228d44126c76ae5e149f08667a90c2371ceadc2a4d0101435c6d55df41` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.9.1-build19)
 
 ### 1.9.0+18 — 2026-11-04
 
