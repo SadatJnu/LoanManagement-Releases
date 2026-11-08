@@ -16,17 +16,18 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.9.1+19** |
+| **Version** | **1.9.2+20** |
 | **Released** | 2026-11-08 |
 | **Size** | 36.5 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `e8074d228d44126c76ae5e149f08667a90c2371ceadc2a4d0101435c6d55df41` |
+| **SHA-256** | `235c0820ed537a99cbaafbcbd0a8dfd5b07dc0b15ad01417a1cf9607b6ffdcd6` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.9.1_b19.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.1-build19/Meridian_LoanManagement_Offline_v1.9.1_b19.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.9.2_b20.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.2-build20/Meridian_LoanManagement_Offline_v1.9.2_b20.apk)
 
 ### What's new in this version / নতুন কী
 
-- The sign-in screen now shows the app name "Loan Management" as its main heading under the Meridian Softworks logo (also on Welcome back and First-time setup), so it is clear which app it is. / সাইন-ইন স্ক্রিনে Meridian Softworks লোগোর নিচে প্রধান শিরোনাম হিসেবে অ্যাপের নাম "Loan Management" দেখায় (Welcome back ও First-time setup-এও), যাতে বোঝা যায় এটি কোন অ্যাপ।
+- Updates are now required: when a new version is published, the app shows "Update required" (while online) until it is installed. There is no "Not now". Your data stays on the phone. / আপডেট এখন আবশ্যক: নতুন সংস্করণ প্রকাশ হলে (অনলাইনে থাকলে) ইনস্টল না করা পর্যন্ত অ্যাপ "Update required" দেখায়। "Not now" নেই। আপনার তথ্য ফোনেই থাকে।
+- Without internet the app keeps working normally. / ইন্টারনেট ছাড়া অ্যাপ স্বাভাবিকভাবে চলে।
 
 ---
 
@@ -59,7 +60,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.9.1_b19.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.9.2_b20.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -73,7 +74,8 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.9.1+19** **(latest)** | 2026-11-08 | 36.5 MB | The sign-in screen now shows the app name "Loan Management" as its main heading under the… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.1-build19/Meridian_LoanManagement_Offline_v1.9.1_b19.apk) |
+| **1.9.2+20** **(latest)** | 2026-11-08 | 36.5 MB | Updates are now required: when a new version is published, the app shows "Update required… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.2-build20/Meridian_LoanManagement_Offline_v1.9.2_b20.apk) |
+| **1.9.1+19** | 2026-11-08 | 36.5 MB | The sign-in screen now shows the app name "Loan Management" as its main heading under the… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.1-build19/Meridian_LoanManagement_Offline_v1.9.1_b19.apk) |
 | **1.9.0+18** | 2026-11-04 | 36.5 MB | New: Settings > Subscription shows your organization's subscription and its Organization… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.0-build18/Meridian_LoanManagement_Offline_v1.9.0_b18.apk) |
 | **1.8.6+17** | 2026-11-04 | 36.4 MB | Fixes "App not installed as package appears to be invalid" on some phones (for example re… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.6-build17/Meridian_LoanManagement_Offline_v1.8.6_b17.apk) |
 | **1.8.5+16** | 2026-11-03 | 80.9 MB | "Use my Google account" is more reliable: if the first Google window finds no account, th… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.5-build16/Meridian_LoanManagement_Offline_v1.8.5_b16.apk) |
@@ -86,6 +88,13 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.9.2+20 — 2026-11-08
+
+- Updates are now required: when a new version is published, the app shows "Update required" (while online) until it is installed. There is no "Not now". Your data stays on the phone. / আপডেট এখন আবশ্যক: নতুন সংস্করণ প্রকাশ হলে (অনলাইনে থাকলে) ইনস্টল না করা পর্যন্ত অ্যাপ "Update required" দেখায়। "Not now" নেই। আপনার তথ্য ফোনেই থাকে।
+- Without internet the app keeps working normally. / ইন্টারনেট ছাড়া অ্যাপ স্বাভাবিকভাবে চলে।
+
+SHA-256: `235c0820ed537a99cbaafbcbd0a8dfd5b07dc0b15ad01417a1cf9607b6ffdcd6` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.9.2-build20)
 
 ### 1.9.1+19 — 2026-11-08
 
