@@ -1,5 +1,27 @@
 [
   {
+    "versionName": "1.10.1",
+    "buildNumber": 22,
+    "version": "1.10.1+22",
+    "tag": "v1.10.1-build22",
+    "apkName": "Meridian_LoanManagement_Offline_v1.10.1_b22.apk",
+    "apkUrl": "https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.1_b22.apk",
+    "sha256": "f70445b2f11acbf84df7ffff6307a5a68efc938c4c649cc77de94bed1eb3a40b",
+    "sizeBytes": 38397868,
+    "releaseNotes": "More reliable updates: when the download server is busy (for example \"server answered 504\") or the connection drops, the app now waits and tries again by itself, also from a second download address. / আরও নির্ভরযোগ্য আপডেট: ডাউনলোড সার্ভার ব্যস্ত থাকলে (যেমন \"server answered 504\") বা সংযোগ কেটে গেলে অ্যাপ এখন নিজেই অপেক্ষা করে আবার চেষ্টা করে, দ্বিতীয় ডাউনলোড ঠিকানা থেকেও।",
+    "publishedAt": "2026-11-09T06:32:15Z",
+    "mandatory": true,
+    "apkMirrors": [
+      {
+        "url": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.1-build22/Meridian_LoanManagement_Offline_v1.10.1_b22.apk"
+      },
+      {
+        "url": "https://api.github.com/repos/SadatJnu/LoanManagement-Releases/releases/assets/726473246",
+        "accept": "application/octet-stream"
+      }
+    ]
+  },
+  {
     "versionName": "1.10.0",
     "buildNumber": 21,
     "version": "1.10.0+21",

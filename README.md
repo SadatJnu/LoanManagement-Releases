@@ -16,17 +16,17 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.10.0+21** |
+| **Version** | **1.10.1+22** |
 | **Released** | 2026-11-09 |
 | **Size** | 36.6 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `d4af635fcc8b6c8094aa4e5b294182cb8692f834a75609b896bd2ab227c0a428` |
+| **SHA-256** | `f70445b2f11acbf84df7ffff6307a5a68efc938c4c649cc77de94bed1eb3a40b` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.10.0_b21.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.0-build21/Meridian_LoanManagement_Offline_v1.10.0_b21.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.10.1_b22.apk](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.1_b22.apk)
 
 ### What's new in this version / নতুন কী
 
-- New: profile photos. Tap your name at the top of the home screen to take a photo or choose one from the gallery; the Owner can set photos in Users. Photos are kept in the encrypted database and travel with every backup, so a restore brings them back. / নতুন: প্রোফাইল ছবি। হোম স্ক্রিনের ওপরে নিজের নামে চাপ দিয়ে ছবি তুলুন বা গ্যালারি থেকে বেছে নিন; Owner Users-এ ছবি দিতে পারেন। ছবি এনক্রিপ্টেড ডাটাবেসে থাকে এবং প্রতিটি ব্যাকআপের সাথে যায়, তাই রিস্টোর করলে ফিরে আসে।
+- More reliable updates: when the download server is busy (for example "server answered 504") or the connection drops, the app now waits and tries again by itself, also from a second download address. / আরও নির্ভরযোগ্য আপডেট: ডাউনলোড সার্ভার ব্যস্ত থাকলে (যেমন "server answered 504") বা সংযোগ কেটে গেলে অ্যাপ এখন নিজেই অপেক্ষা করে আবার চেষ্টা করে, দ্বিতীয় ডাউনলোড ঠিকানা থেকেও।
 
 ---
 
@@ -59,7 +59,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.10.0_b21.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.10.1_b22.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -73,7 +73,8 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.10.0+21** **(latest)** | 2026-11-09 | 36.6 MB | New: profile photos. Tap your name at the top of the home screen to take a photo or choos… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.0-build21/Meridian_LoanManagement_Offline_v1.10.0_b21.apk) |
+| **1.10.1+22** **(latest)** | 2026-11-09 | 36.6 MB | More reliable updates: when the download server is busy (for example "server answered 504… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.1_b22.apk) |
+| **1.10.0+21** | 2026-11-09 | 36.6 MB | New: profile photos. Tap your name at the top of the home screen to take a photo or choos… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.0-build21/Meridian_LoanManagement_Offline_v1.10.0_b21.apk) |
 | **1.9.2+20** | 2026-11-08 | 36.5 MB | Updates are now required: when a new version is published, the app shows "Update required… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.2-build20/Meridian_LoanManagement_Offline_v1.9.2_b20.apk) |
 | **1.9.1+19** | 2026-11-08 | 36.5 MB | The sign-in screen now shows the app name "Loan Management" as its main heading under the… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.1-build19/Meridian_LoanManagement_Offline_v1.9.1_b19.apk) |
 | **1.9.0+18** | 2026-11-04 | 36.5 MB | New: Settings > Subscription shows your organization's subscription and its Organization… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.0-build18/Meridian_LoanManagement_Offline_v1.9.0_b18.apk) |
@@ -88,6 +89,12 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.10.1+22 — 2026-11-09
+
+- More reliable updates: when the download server is busy (for example "server answered 504") or the connection drops, the app now waits and tries again by itself, also from a second download address. / আরও নির্ভরযোগ্য আপডেট: ডাউনলোড সার্ভার ব্যস্ত থাকলে (যেমন "server answered 504") বা সংযোগ কেটে গেলে অ্যাপ এখন নিজেই অপেক্ষা করে আবার চেষ্টা করে, দ্বিতীয় ডাউনলোড ঠিকানা থেকেও।
+
+SHA-256: `f70445b2f11acbf84df7ffff6307a5a68efc938c4c649cc77de94bed1eb3a40b` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.10.1-build22)
 
 ### 1.10.0+21 — 2026-11-09
 
