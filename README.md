@@ -16,18 +16,17 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.9.2+20** |
-| **Released** | 2026-11-08 |
-| **Size** | 36.5 MB |
+| **Version** | **1.10.0+21** |
+| **Released** | 2026-11-09 |
+| **Size** | 36.6 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `235c0820ed537a99cbaafbcbd0a8dfd5b07dc0b15ad01417a1cf9607b6ffdcd6` |
+| **SHA-256** | `d4af635fcc8b6c8094aa4e5b294182cb8692f834a75609b896bd2ab227c0a428` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.9.2_b20.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.2-build20/Meridian_LoanManagement_Offline_v1.9.2_b20.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.10.0_b21.apk](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.0-build21/Meridian_LoanManagement_Offline_v1.10.0_b21.apk)
 
 ### What's new in this version / নতুন কী
 
-- Updates are now required: when a new version is published, the app shows "Update required" (while online) until it is installed. There is no "Not now". Your data stays on the phone. / আপডেট এখন আবশ্যক: নতুন সংস্করণ প্রকাশ হলে (অনলাইনে থাকলে) ইনস্টল না করা পর্যন্ত অ্যাপ "Update required" দেখায়। "Not now" নেই। আপনার তথ্য ফোনেই থাকে।
-- Without internet the app keeps working normally. / ইন্টারনেট ছাড়া অ্যাপ স্বাভাবিকভাবে চলে।
+- New: profile photos. Tap your name at the top of the home screen to take a photo or choose one from the gallery; the Owner can set photos in Users. Photos are kept in the encrypted database and travel with every backup, so a restore brings them back. / নতুন: প্রোফাইল ছবি। হোম স্ক্রিনের ওপরে নিজের নামে চাপ দিয়ে ছবি তুলুন বা গ্যালারি থেকে বেছে নিন; Owner Users-এ ছবি দিতে পারেন। ছবি এনক্রিপ্টেড ডাটাবেসে থাকে এবং প্রতিটি ব্যাকআপের সাথে যায়, তাই রিস্টোর করলে ফিরে আসে।
 
 ---
 
@@ -60,7 +59,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.9.2_b20.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.10.0_b21.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -74,7 +73,8 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.9.2+20** **(latest)** | 2026-11-08 | 36.5 MB | Updates are now required: when a new version is published, the app shows "Update required… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.2-build20/Meridian_LoanManagement_Offline_v1.9.2_b20.apk) |
+| **1.10.0+21** **(latest)** | 2026-11-09 | 36.6 MB | New: profile photos. Tap your name at the top of the home screen to take a photo or choos… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.0-build21/Meridian_LoanManagement_Offline_v1.10.0_b21.apk) |
+| **1.9.2+20** | 2026-11-08 | 36.5 MB | Updates are now required: when a new version is published, the app shows "Update required… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.2-build20/Meridian_LoanManagement_Offline_v1.9.2_b20.apk) |
 | **1.9.1+19** | 2026-11-08 | 36.5 MB | The sign-in screen now shows the app name "Loan Management" as its main heading under the… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.1-build19/Meridian_LoanManagement_Offline_v1.9.1_b19.apk) |
 | **1.9.0+18** | 2026-11-04 | 36.5 MB | New: Settings > Subscription shows your organization's subscription and its Organization… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.0-build18/Meridian_LoanManagement_Offline_v1.9.0_b18.apk) |
 | **1.8.6+17** | 2026-11-04 | 36.4 MB | Fixes "App not installed as package appears to be invalid" on some phones (for example re… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.8.6-build17/Meridian_LoanManagement_Offline_v1.8.6_b17.apk) |
@@ -88,6 +88,12 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.10.0+21 — 2026-11-09
+
+- New: profile photos. Tap your name at the top of the home screen to take a photo or choose one from the gallery; the Owner can set photos in Users. Photos are kept in the encrypted database and travel with every backup, so a restore brings them back. / নতুন: প্রোফাইল ছবি। হোম স্ক্রিনের ওপরে নিজের নামে চাপ দিয়ে ছবি তুলুন বা গ্যালারি থেকে বেছে নিন; Owner Users-এ ছবি দিতে পারেন। ছবি এনক্রিপ্টেড ডাটাবেসে থাকে এবং প্রতিটি ব্যাকআপের সাথে যায়, তাই রিস্টোর করলে ফিরে আসে।
+
+SHA-256: `d4af635fcc8b6c8094aa4e5b294182cb8692f834a75609b896bd2ab227c0a428` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.10.0-build21)
 
 ### 1.9.2+20 — 2026-11-08
 
