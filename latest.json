@@ -1,21 +1,21 @@
 {
-  "versionName": "1.10.1",
-  "buildNumber": 22,
-  "version": "1.10.1+22",
-  "tag": "v1.10.1-build22",
-  "apkName": "Meridian_LoanManagement_Offline_v1.10.1_b22.apk",
-  "apkUrl": "https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.1_b22.apk",
-  "sha256": "f70445b2f11acbf84df7ffff6307a5a68efc938c4c649cc77de94bed1eb3a40b",
-  "sizeBytes": 38397868,
-  "releaseNotes": "More reliable updates: when the download server is busy (for example \"server answered 504\") or the connection drops, the app now waits and tries again by itself, also from a second download address. / আরও নির্ভরযোগ্য আপডেট: ডাউনলোড সার্ভার ব্যস্ত থাকলে (যেমন \"server answered 504\") বা সংযোগ কেটে গেলে অ্যাপ এখন নিজেই অপেক্ষা করে আবার চেষ্টা করে, দ্বিতীয় ডাউনলোড ঠিকানা থেকেও।",
-  "publishedAt": "2026-11-09T06:32:15Z",
+  "versionName": "1.10.2",
+  "buildNumber": 23,
+  "version": "1.10.2+23",
+  "tag": "v1.10.2-build23",
+  "apkName": "Meridian_LoanManagement_Offline_v1.10.2_b23.apk",
+  "apkUrl": "https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.2_b23.apk",
+  "sha256": "503a2e680fdbbd8d32b3b3d154fd29f8c36b3ecf384432f48b1ba6e05e3e2588",
+  "sizeBytes": 38408395,
+  "releaseNotes": "Hourly Google Drive backups run more reliably: if Android battery optimization is on for the app, Backup and recovery shows \"Hourly backups may wait while the app is closed\" with an \"Allow background running\" button (also offered right after setting up automatic backup), plus how to allow background activity on realme, OPPO, Vivo and Xiaomi phones. / প্রতি ঘণ্টার Google Drive ব্যাকআপ আরও নিয়মিত: অ্যাপের ব্যাটারি অপটিমাইজেশন চালু থাকলে Backup and recovery-তে \"Hourly backups may wait while the app is closed\" ও \"Allow background running\" বাটন দেখায় (স্বয়ংক্রিয় ব্যাকআপ সেট করার পরপরও জিজ্ঞেস করে), সাথে realme, OPPO, Vivo ও Xiaomi ফোনে ব্যাকগ্রাউন্ড চালানোর অনুমতির নিয়ম।\nAfter \"Backup now\" the message is now simply \"Backup saved to <folder> and checked\". / \"Backup now\"-এর পর বার্তা এখন সহজভাবে \"Backup saved to <folder> and checked\"।",
+  "publishedAt": "2026-11-11T04:10:08Z",
   "mandatory": true,
   "apkMirrors": [
     {
-      "url": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.1-build22/Meridian_LoanManagement_Offline_v1.10.1_b22.apk"
+      "url": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.2-build23/Meridian_LoanManagement_Offline_v1.10.2_b23.apk"
     },
     {
-      "url": "https://api.github.com/repos/SadatJnu/LoanManagement-Releases/releases/assets/726473246",
+      "url": "https://api.github.com/repos/SadatJnu/LoanManagement-Releases/releases/assets/734078774",
       "accept": "application/octet-stream"
     }
   ]

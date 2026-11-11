@@ -16,17 +16,18 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.10.1+22** |
-| **Released** | 2026-11-09 |
+| **Version** | **1.10.2+23** |
+| **Released** | 2026-11-11 |
 | **Size** | 36.6 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `f70445b2f11acbf84df7ffff6307a5a68efc938c4c649cc77de94bed1eb3a40b` |
+| **SHA-256** | `503a2e680fdbbd8d32b3b3d154fd29f8c36b3ecf384432f48b1ba6e05e3e2588` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.10.1_b22.apk](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.1_b22.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.10.2_b23.apk](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.2_b23.apk)
 
 ### What's new in this version / নতুন কী
 
-- More reliable updates: when the download server is busy (for example "server answered 504") or the connection drops, the app now waits and tries again by itself, also from a second download address. / আরও নির্ভরযোগ্য আপডেট: ডাউনলোড সার্ভার ব্যস্ত থাকলে (যেমন "server answered 504") বা সংযোগ কেটে গেলে অ্যাপ এখন নিজেই অপেক্ষা করে আবার চেষ্টা করে, দ্বিতীয় ডাউনলোড ঠিকানা থেকেও।
+- Hourly Google Drive backups run more reliably: if Android battery optimization is on for the app, Backup and recovery shows "Hourly backups may wait while the app is closed" with an "Allow background running" button (also offered right after setting up automatic backup), plus how to allow background activity on realme, OPPO, Vivo and Xiaomi phones. / প্রতি ঘণ্টার Google Drive ব্যাকআপ আরও নিয়মিত: অ্যাপের ব্যাটারি অপটিমাইজেশন চালু থাকলে Backup and recovery-তে "Hourly backups may wait while the app is closed" ও "Allow background running" বাটন দেখায় (স্বয়ংক্রিয় ব্যাকআপ সেট করার পরপরও জিজ্ঞেস করে), সাথে realme, OPPO, Vivo ও Xiaomi ফোনে ব্যাকগ্রাউন্ড চালানোর অনুমতির নিয়ম।
+- After "Backup now" the message is now simply "Backup saved to <folder> and checked". / "Backup now"-এর পর বার্তা এখন সহজভাবে "Backup saved to <folder> and checked"।
 
 ---
 
@@ -59,7 +60,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.10.1_b22.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.10.2_b23.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -73,7 +74,8 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.10.1+22** **(latest)** | 2026-11-09 | 36.6 MB | More reliable updates: when the download server is busy (for example "server answered 504… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.1_b22.apk) |
+| **1.10.2+23** **(latest)** | 2026-11-11 | 36.6 MB | Hourly Google Drive backups run more reliably: if Android battery optimization is on for… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.2_b23.apk) |
+| **1.10.1+22** | 2026-11-09 | 36.6 MB | More reliable updates: when the download server is busy (for example "server answered 504… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.1_b22.apk) |
 | **1.10.0+21** | 2026-11-09 | 36.6 MB | New: profile photos. Tap your name at the top of the home screen to take a photo or choos… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.0-build21/Meridian_LoanManagement_Offline_v1.10.0_b21.apk) |
 | **1.9.2+20** | 2026-11-08 | 36.5 MB | Updates are now required: when a new version is published, the app shows "Update required… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.2-build20/Meridian_LoanManagement_Offline_v1.9.2_b20.apk) |
 | **1.9.1+19** | 2026-11-08 | 36.5 MB | The sign-in screen now shows the app name "Loan Management" as its main heading under the… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.1-build19/Meridian_LoanManagement_Offline_v1.9.1_b19.apk) |
@@ -89,6 +91,13 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.10.2+23 — 2026-11-11
+
+- Hourly Google Drive backups run more reliably: if Android battery optimization is on for the app, Backup and recovery shows "Hourly backups may wait while the app is closed" with an "Allow background running" button (also offered right after setting up automatic backup), plus how to allow background activity on realme, OPPO, Vivo and Xiaomi phones. / প্রতি ঘণ্টার Google Drive ব্যাকআপ আরও নিয়মিত: অ্যাপের ব্যাটারি অপটিমাইজেশন চালু থাকলে Backup and recovery-তে "Hourly backups may wait while the app is closed" ও "Allow background running" বাটন দেখায় (স্বয়ংক্রিয় ব্যাকআপ সেট করার পরপরও জিজ্ঞেস করে), সাথে realme, OPPO, Vivo ও Xiaomi ফোনে ব্যাকগ্রাউন্ড চালানোর অনুমতির নিয়ম।
+- After "Backup now" the message is now simply "Backup saved to <folder> and checked". / "Backup now"-এর পর বার্তা এখন সহজভাবে "Backup saved to <folder> and checked"।
+
+SHA-256: `503a2e680fdbbd8d32b3b3d154fd29f8c36b3ecf384432f48b1ba6e05e3e2588` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.10.2-build23)
 
 ### 1.10.1+22 — 2026-11-09
 
