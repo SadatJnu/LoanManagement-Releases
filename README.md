@@ -16,18 +16,17 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.10.2+23** |
+| **Version** | **1.10.3+24** |
 | **Released** | 2026-11-11 |
 | **Size** | 36.6 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `503a2e680fdbbd8d32b3b3d154fd29f8c36b3ecf384432f48b1ba6e05e3e2588` |
+| **SHA-256** | `2f9ae45c997240744af9b812bc353e908dddd4480fad63bf3fa66e71c3b08353` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.10.2_b23.apk](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.2_b23.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.10.3_b24.apk](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.3_b24.apk)
 
 ### What's new in this version / নতুন কী
 
-- Hourly Google Drive backups run more reliably: if Android battery optimization is on for the app, Backup and recovery shows "Hourly backups may wait while the app is closed" with an "Allow background running" button (also offered right after setting up automatic backup), plus how to allow background activity on realme, OPPO, Vivo and Xiaomi phones. / প্রতি ঘণ্টার Google Drive ব্যাকআপ আরও নিয়মিত: অ্যাপের ব্যাটারি অপটিমাইজেশন চালু থাকলে Backup and recovery-তে "Hourly backups may wait while the app is closed" ও "Allow background running" বাটন দেখায় (স্বয়ংক্রিয় ব্যাকআপ সেট করার পরপরও জিজ্ঞেস করে), সাথে realme, OPPO, Vivo ও Xiaomi ফোনে ব্যাকগ্রাউন্ড চালানোর অনুমতির নিয়ম।
-- After "Backup now" the message is now simply "Backup saved to <folder> and checked". / "Backup now"-এর পর বার্তা এখন সহজভাবে "Backup saved to <folder> and checked"।
+- Fixes "There was a problem parsing the package" during an in-app update: the downloaded and checked file is no longer deleted when "Download and install" is pressed again; the same file is handed to the installer. / অ্যাপের ভেতর থেকে আপডেটের সময় "There was a problem parsing the package" সমস্যার সমাধান: "Download and install" আবার চাপলে ডাউনলোড ও যাচাই করা ফাইল আর মুছে যায় না; একই ফাইল ইনস্টলারে দেওয়া হয়।
 
 ---
 
@@ -60,7 +59,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.10.2_b23.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.10.3_b24.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -74,7 +73,8 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.10.2+23** **(latest)** | 2026-11-11 | 36.6 MB | Hourly Google Drive backups run more reliably: if Android battery optimization is on for… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.2_b23.apk) |
+| **1.10.3+24** **(latest)** | 2026-11-11 | 36.6 MB | Fixes "There was a problem parsing the package" during an in-app update: the downloaded a… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.3_b24.apk) |
+| **1.10.2+23** | 2026-11-11 | 36.6 MB | Hourly Google Drive backups run more reliably: if Android battery optimization is on for… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.2_b23.apk) |
 | **1.10.1+22** | 2026-11-09 | 36.6 MB | More reliable updates: when the download server is busy (for example "server answered 504… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.1_b22.apk) |
 | **1.10.0+21** | 2026-11-09 | 36.6 MB | New: profile photos. Tap your name at the top of the home screen to take a photo or choos… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.0-build21/Meridian_LoanManagement_Offline_v1.10.0_b21.apk) |
 | **1.9.2+20** | 2026-11-08 | 36.5 MB | Updates are now required: when a new version is published, the app shows "Update required… | [APK](https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.9.2-build20/Meridian_LoanManagement_Offline_v1.9.2_b20.apk) |
@@ -91,6 +91,12 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.10.3+24 — 2026-11-11
+
+- Fixes "There was a problem parsing the package" during an in-app update: the downloaded and checked file is no longer deleted when "Download and install" is pressed again; the same file is handed to the installer. / অ্যাপের ভেতর থেকে আপডেটের সময় "There was a problem parsing the package" সমস্যার সমাধান: "Download and install" আবার চাপলে ডাউনলোড ও যাচাই করা ফাইল আর মুছে যায় না; একই ফাইল ইনস্টলারে দেওয়া হয়।
+
+SHA-256: `2f9ae45c997240744af9b812bc353e908dddd4480fad63bf3fa66e71c3b08353` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.10.3-build24)
 
 ### 1.10.2+23 — 2026-11-11
 

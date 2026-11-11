@@ -1,21 +1,21 @@
 {
-  "versionName": "1.10.2",
-  "buildNumber": 23,
-  "version": "1.10.2+23",
-  "tag": "v1.10.2-build23",
-  "apkName": "Meridian_LoanManagement_Offline_v1.10.2_b23.apk",
-  "apkUrl": "https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.2_b23.apk",
-  "sha256": "503a2e680fdbbd8d32b3b3d154fd29f8c36b3ecf384432f48b1ba6e05e3e2588",
-  "sizeBytes": 38408395,
-  "releaseNotes": "Hourly Google Drive backups run more reliably: if Android battery optimization is on for the app, Backup and recovery shows \"Hourly backups may wait while the app is closed\" with an \"Allow background running\" button (also offered right after setting up automatic backup), plus how to allow background activity on realme, OPPO, Vivo and Xiaomi phones. / প্রতি ঘণ্টার Google Drive ব্যাকআপ আরও নিয়মিত: অ্যাপের ব্যাটারি অপটিমাইজেশন চালু থাকলে Backup and recovery-তে \"Hourly backups may wait while the app is closed\" ও \"Allow background running\" বাটন দেখায় (স্বয়ংক্রিয় ব্যাকআপ সেট করার পরপরও জিজ্ঞেস করে), সাথে realme, OPPO, Vivo ও Xiaomi ফোনে ব্যাকগ্রাউন্ড চালানোর অনুমতির নিয়ম।\nAfter \"Backup now\" the message is now simply \"Backup saved to <folder> and checked\". / \"Backup now\"-এর পর বার্তা এখন সহজভাবে \"Backup saved to <folder> and checked\"।",
-  "publishedAt": "2026-11-11T04:10:08Z",
+  "versionName": "1.10.3",
+  "buildNumber": 24,
+  "version": "1.10.3+24",
+  "tag": "v1.10.3-build24",
+  "apkName": "Meridian_LoanManagement_Offline_v1.10.3_b24.apk",
+  "apkUrl": "https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.3_b24.apk",
+  "sha256": "2f9ae45c997240744af9b812bc353e908dddd4480fad63bf3fa66e71c3b08353",
+  "sizeBytes": 38410903,
+  "releaseNotes": "Fixes \"There was a problem parsing the package\" during an in-app update: the downloaded and checked file is no longer deleted when \"Download and install\" is pressed again; the same file is handed to the installer. / অ্যাপের ভেতর থেকে আপডেটের সময় \"There was a problem parsing the package\" সমস্যার সমাধান: \"Download and install\" আবার চাপলে ডাউনলোড ও যাচাই করা ফাইল আর মুছে যায় না; একই ফাইল ইনস্টলারে দেওয়া হয়।",
+  "publishedAt": "2026-11-11T05:08:10Z",
   "mandatory": true,
   "apkMirrors": [
     {
-      "url": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.2-build23/Meridian_LoanManagement_Offline_v1.10.2_b23.apk"
+      "url": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.3-build24/Meridian_LoanManagement_Offline_v1.10.3_b24.apk"
     },
     {
-      "url": "https://api.github.com/repos/SadatJnu/LoanManagement-Releases/releases/assets/734078774",
+      "url": "https://api.github.com/repos/SadatJnu/LoanManagement-Releases/releases/assets/734218426",
       "accept": "application/octet-stream"
     }
   ]

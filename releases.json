@@ -1,5 +1,27 @@
 [
   {
+    "versionName": "1.10.3",
+    "buildNumber": 24,
+    "version": "1.10.3+24",
+    "tag": "v1.10.3-build24",
+    "apkName": "Meridian_LoanManagement_Offline_v1.10.3_b24.apk",
+    "apkUrl": "https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.3_b24.apk",
+    "sha256": "2f9ae45c997240744af9b812bc353e908dddd4480fad63bf3fa66e71c3b08353",
+    "sizeBytes": 38410903,
+    "releaseNotes": "Fixes \"There was a problem parsing the package\" during an in-app update: the downloaded and checked file is no longer deleted when \"Download and install\" is pressed again; the same file is handed to the installer. / অ্যাপের ভেতর থেকে আপডেটের সময় \"There was a problem parsing the package\" সমস্যার সমাধান: \"Download and install\" আবার চাপলে ডাউনলোড ও যাচাই করা ফাইল আর মুছে যায় না; একই ফাইল ইনস্টলারে দেওয়া হয়।",
+    "publishedAt": "2026-11-11T05:08:10Z",
+    "mandatory": true,
+    "apkMirrors": [
+      {
+        "url": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.10.3-build24/Meridian_LoanManagement_Offline_v1.10.3_b24.apk"
+      },
+      {
+        "url": "https://api.github.com/repos/SadatJnu/LoanManagement-Releases/releases/assets/734218426",
+        "accept": "application/octet-stream"
+      }
+    ]
+  },
+  {
     "versionName": "1.10.2",
     "buildNumber": 23,
     "version": "1.10.2+23",
