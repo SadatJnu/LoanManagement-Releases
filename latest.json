@@ -1,21 +1,21 @@
 {
-  "versionName": "1.11.0",
-  "buildNumber": 25,
-  "version": "1.11.0+25",
-  "tag": "v1.11.0-build25",
-  "apkName": "Meridian_LoanManagement_Offline_v1.11.0_b25.apk",
-  "apkUrl": "https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.11.0_b25.apk",
-  "sha256": "650a1a83fc2d858809f76c541d6b007efddb84cc6205296ddf7a94a3e986d6c8",
-  "sizeBytes": 38479968,
-  "releaseNotes": "New: Settings > Delete my account. Each user can delete their own account (password + DELETE). Your name, email, password, photo and remembered login are removed from the phone, and a request is sent to Meridian Softworks to delete your registration; financial records of the organization are kept. / নতুন: Settings > Delete my account। প্রত্যেক ব্যবহারকারী নিজের অ্যাকাউন্ট মুছতে পারেন (পাসওয়ার্ড + DELETE)। নাম, ইমেইল, পাসওয়ার্ড, ছবি ও remembered login ফোন থেকে মোছা হয় এবং Meridian Softworks-এ নিবন্ধন মুছতে অনুরোধ যায়; সংগঠনের আর্থিক হিসাব থাকে।\nOwners can see the status of these requests in Settings > Data deletion requests. / Owner এই অনুরোধগুলোর অবস্থা Settings > Data deletion requests-এ দেখতে পারেন।",
-  "publishedAt": "2026-11-22T06:02:06Z",
+  "versionName": "1.11.1",
+  "buildNumber": 26,
+  "version": "1.11.1+26",
+  "tag": "v1.11.1-build26",
+  "apkName": "Meridian_LoanManagement_Offline_v1.11.1_b26.apk",
+  "apkUrl": "https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.11.1_b26.apk",
+  "sha256": "dab404de6a90c23ad9511bd50e1da6d70871c0e987091b229ffea65e1b84cd45",
+  "sizeBytes": 38480016,
+  "releaseNotes": "Maintenance update: prepares the app for Google Play. Your data, settings and backups are not changed. / রক্ষণাবেক্ষণ আপডেট: অ্যাপটিকে Google Play-এর জন্য প্রস্তুত করা হয়েছে। আপনার ডেটা, সেটিংস ও ব্যাকআপ অপরিবর্তিত থাকে।",
+  "publishedAt": "2026-11-23T05:11:40Z",
   "mandatory": true,
   "apkMirrors": [
     {
-      "url": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.11.0-build25/Meridian_LoanManagement_Offline_v1.11.0_b25.apk"
+      "url": "https://github.com/SadatJnu/LoanManagement-Releases/releases/download/v1.11.1-build26/Meridian_LoanManagement_Offline_v1.11.1_b26.apk"
     },
     {
-      "url": "https://api.github.com/repos/SadatJnu/LoanManagement-Releases/releases/assets/778062150",
+      "url": "https://api.github.com/repos/SadatJnu/LoanManagement-Releases/releases/assets/781621978",
       "accept": "application/octet-stream"
     }
   ]

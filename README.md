@@ -16,18 +16,17 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 | | |
 |---|---|
-| **Version** | **1.11.0+25** |
-| **Released** | 2026-11-22 |
+| **Version** | **1.11.1+26** |
+| **Released** | 2026-11-23 |
 | **Size** | 36.7 MB |
 | **Requires** | Android 7.0 or newer |
-| **SHA-256** | `650a1a83fc2d858809f76c541d6b007efddb84cc6205296ddf7a94a3e986d6c8` |
+| **SHA-256** | `dab404de6a90c23ad9511bd50e1da6d70871c0e987091b229ffea65e1b84cd45` |
 
-### [📱 Download Meridian_LoanManagement_Offline_v1.11.0_b25.apk](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.11.0_b25.apk)
+### [📱 Download Meridian_LoanManagement_Offline_v1.11.1_b26.apk](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.11.1_b26.apk)
 
 ### What's new in this version / নতুন কী
 
-- New: Settings > Delete my account. Each user can delete their own account (password + DELETE). Your name, email, password, photo and remembered login are removed from the phone, and a request is sent to Meridian Softworks to delete your registration; financial records of the organization are kept. / নতুন: Settings > Delete my account। প্রত্যেক ব্যবহারকারী নিজের অ্যাকাউন্ট মুছতে পারেন (পাসওয়ার্ড + DELETE)। নাম, ইমেইল, পাসওয়ার্ড, ছবি ও remembered login ফোন থেকে মোছা হয় এবং Meridian Softworks-এ নিবন্ধন মুছতে অনুরোধ যায়; সংগঠনের আর্থিক হিসাব থাকে।
-- Owners can see the status of these requests in Settings > Data deletion requests. / Owner এই অনুরোধগুলোর অবস্থা Settings > Data deletion requests-এ দেখতে পারেন।
+- Maintenance update: prepares the app for Google Play. Your data, settings and backups are not changed. / রক্ষণাবেক্ষণ আপডেট: অ্যাপটিকে Google Play-এর জন্য প্রস্তুত করা হয়েছে। আপনার ডেটা, সেটিংস ও ব্যাকআপ অপরিবর্তিত থাকে।
 
 ---
 
@@ -60,7 +59,7 @@ An offline-first loan management app for Android. All data stays on the phone, e
 
 Windows PowerShell:
 ```powershell
-Get-FileHash .\Meridian_LoanManagement_Offline_v1.11.0_b25.apk -Algorithm SHA256
+Get-FileHash .\Meridian_LoanManagement_Offline_v1.11.1_b26.apk -Algorithm SHA256
 ```
 The result must match the SHA-256 shown for that version (also in the `.sha256` file of each release).
 
@@ -74,7 +73,8 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 | Version | Released | Size | What changed | Download |
 |---|---|---|---|---|
-| **1.11.0+25** **(latest)** | 2026-11-22 | 36.7 MB | New: Settings > Delete my account. Each user can delete their own account (password + DEL… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.11.0_b25.apk) |
+| **1.11.1+26** **(latest)** | 2026-11-23 | 36.7 MB | Maintenance update: prepares the app for Google Play. Your data, settings and backups are… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.11.1_b26.apk) |
+| **1.11.0+25** | 2026-11-22 | 36.7 MB | New: Settings > Delete my account. Each user can delete their own account (password + DEL… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.11.0_b25.apk) |
 | **1.10.3+24** | 2026-11-11 | 36.6 MB | Fixes "There was a problem parsing the package" during an in-app update: the downloaded a… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.3_b24.apk) |
 | **1.10.2+23** | 2026-11-11 | 36.6 MB | Hourly Google Drive backups run more reliably: if Android battery optimization is on for… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.2_b23.apk) |
 | **1.10.1+22** | 2026-11-09 | 36.6 MB | More reliable updates: when the download server is busy (for example "server answered 504… | [APK](https://raw.githubusercontent.com/SadatJnu/LoanManagement-Releases/download/Meridian_LoanManagement_Offline_v1.10.1_b22.apk) |
@@ -93,6 +93,12 @@ Signing certificate SHA-256: `C7:14:9C:23:8E:68:0A:6A:A3:D1:40:70:BA:02:97:D6:32
 
 <details>
 <summary><b>Full release notes of every version / প্রতিটি সংস্করণের বিস্তারিত</b></summary>
+
+### 1.11.1+26 — 2026-11-23
+
+- Maintenance update: prepares the app for Google Play. Your data, settings and backups are not changed. / রক্ষণাবেক্ষণ আপডেট: অ্যাপটিকে Google Play-এর জন্য প্রস্তুত করা হয়েছে। আপনার ডেটা, সেটিংস ও ব্যাকআপ অপরিবর্তিত থাকে।
+
+SHA-256: `dab404de6a90c23ad9511bd50e1da6d70871c0e987091b229ffea65e1b84cd45` · [Release page](https://github.com/SadatJnu/LoanManagement-Releases/releases/tag/v1.11.1-build26)
 
 ### 1.11.0+25 — 2026-11-22
 
